@@ -1,9 +1,9 @@
 pipeline {
   agent {
     label 'jdk8'
-    libraries {
+  }
+  libraries {
       lib("funLib")
-    }
   }
   stages {
     stage('Say Hello') {
